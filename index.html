@@ -4,11 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
     <title>Smash Sul</title>
+    <link rel="shortcut icon" href="assets/imgs/favicon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -36,17 +41,18 @@
         <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
 
             <div class="flex gap-2">
-                <img src="./assets/imgs/hamb-1.png" alt="Hamburger Smash"
+                <img src="./assets/imgs/hamb-1.png" alt="Salad Duplo"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
 
                 <div>
-                    <p class="font-bold">Hamburguer Smash</p>
-                    <p class="text-sm">Pão levinho de fermentação natural de trigo, burger 160g, queijo prato e maionese
-                        da casa.</p>
+                    <p class="font-bold">Salad Duplo</p>
+                    <p class="text-sm">Dois hambúrgueres suculentos, servidos com uma refrescante salada de alface,
+                        tomate e cebola, acompanhados de queijo derretido, em um pão macio. Ideal para quem busca uma
+                        combinação equilibrada e saborosa!</p>
                     <div class="flex items-center gap-2 justify-between mt-3">
-                        <p class="font-bold text-lg">R$ 18.90</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Hamburguer smash"
-                            data-price="18.90">
+                        <p class="font-bold text-lg">R$ 38.90</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Salad Duplo"
+                            data-price="38.90">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
@@ -54,16 +60,17 @@
             </div>
 
             <div class="flex gap-2">
-                <img src="./assets/imgs/hamb-2.png" alt="Hamburger Duplo"
+                <img src="./assets/imgs/hamb-2.png" alt="Smash Duplo Bacon"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
 
                 <div>
-                    <p class="font-bold">Hamburguer Duplo</p>
-                    <p class="text-sm">Pão levinho de fermentação natural de trigo, burger 160g, queijo prato e maionese
-                        da casa.</p>
+                    <p class="font-bold">Smash Duplo Bacon</p>
+                    <p class="text-sm">Um suculento hambúrguer prensado na chapa, coberto com duas camadas crocantes de
+                        bacon e finalizado com queijo derretido, servido em um pão macio. Perfeito para os amantes de
+                        sabor intenso e textura crocante!</p>
                     <div class="flex items-center gap-2 justify-between mt-3">
                         <p class="font-bold text-lg">R$ 32.90</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Hamburguer Duplo"
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Smash Duplo Bacon"
                             data-price="32.90">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
@@ -72,17 +79,17 @@
             </div>
 
             <div class="flex gap-2">
-                <img src="./assets/imgs/hamb-3.png" alt="Hamburger Salad"
+                <img src="./assets/imgs/hamb-3.png" alt="Duplo Smash Burger"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
 
                 <div>
-                    <p class="font-bold">Hamburguer Salad</p>
-                    <p class="text-sm">Pão levinho de fermentação natural de trigo, burger 160g, queijo prato e maionese
-                        da casa.</p>
+                    <p class="font-bold">Duplo Smash Burger</p>
+                    <p class="text-sm">Dois hambúrgueres finos e suculentos prensados na chapa, cobertos com queijo
+                        derretido e servidos em um pão macio. Uma explosão de sabor e textura em cada mordida!</p>
                     <div class="flex items-center gap-2 justify-between mt-3">
-                        <p class="font-bold text-lg">R$ 35.90</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Hamburguer Salad"
-                            data-price="35.90">
+                        <p class="font-bold text-lg">R$ 29.90</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Duplo Smash Burger"
+                            data-price="29.90">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
@@ -90,17 +97,94 @@
             </div>
 
             <div class="flex gap-2">
-                <img src="./assets/imgs/hamb-4.png" alt="Hamburger da Casa"
+                <img src="./assets/imgs/hamb-4.png" alt="Chicken Salad"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
 
                 <div>
-                    <p class="font-bold">Hamburguer da Casa</p>
-                    <p class="text-sm">Pão levinho de fermentação natural de trigo, burger 160g, queijo prato e maionese
-                        da casa.</p>
+                    <p class="font-bold">Chicken Salad</p>
+                    <p class="text-sm">Um hambúrguer de frango grelhado e suculento, servido com uma refrescante salada
+                        de alface, tomate e cebola, acompanhado de queijo derretido e um pão macio. Leve e delicioso!
+                    </p>
                     <div class="flex items-center gap-2 justify-between mt-3">
-                        <p class="font-bold text-lg">R$ 30</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Hamburguer da Casa"
-                            data-price="30">
+                        <p class="font-bold text-lg">R$ 25.90</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Chicken Salad"
+                            data-price="25.90">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/imgs/hamb-5.png" alt="Costela Salad Duplo"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div>
+                    <p class="font-bold">Costela Salad Duplo</p>
+                    <p class="text-sm">Dois hambúrgueres suculentos de costela, servidos com uma crocante salada de
+                        alface, tomate e cebola, e queijo derretido, em um pão macio. Uma combinação irresistível de
+                        sabor intenso e frescor!</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 49.90</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Costela Salad Duplo"
+                            data-price="49.90">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/imgs/hamb-6.png" alt="Burger BBQ"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div>
+                    <p class="font-bold">Burger BBQ</p>
+                    <p class="text-sm">Um hambúrguer suculento grelhado ao estilo churrasco, coberto com molho BBQ e
+                        fatias de cebola roxa, servido em um pão macio. Um sabor defumado e irresistível em cada
+                        mordida!</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 29.90</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Burger BBQ"
+                            data-price="29.90">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/imgs/hamb-7.png" alt="Smash Orion Rings"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div>
+                    <p class="font-bold">Smash Orion Rings</p>
+                    <p class="text-sm">Um suculento hambúrguer prensado na chapa, coberto com queijo derretido, cebolas
+                        caramelizadas, e anéis de cebola crocantes, servido em um pão macio. Uma combinação perfeita de
+                        sabor e crocância!</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 32.90</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Smash Orion Rings"
+                            data-price="32.90">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="./assets/imgs/hamb-8.png" alt="Vegetarian"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+                <div>
+                    <p class="font-bold">Vegetarian</p>
+                    <p class="text-sm">Um delicioso hambúrguer vegetariano feito com ingredientes frescos e saudáveis,
+                        servido com alface, tomate e cebola, em um pão macio. Uma opção saborosa e nutritiva para todos
+                        os gostos!</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 26.90</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Vegetarian"
+                            data-price="26.90">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
@@ -119,12 +203,10 @@
 
                 <div class="w-full">
                     <p class="font-bold">Coca cola - Lata</p>
-                    
+
                     <div class="flex items-center gap-2 justify-between mt-3">
                         <p class="font-bold text-lg">R$ 6</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
-                        data-name="Coca lata"
-                            data-price="6">
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Coca lata" data-price="6">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
@@ -137,11 +219,10 @@
 
                 <div class="w-full">
                     <p class="font-bold">Guaraná - Lata</p>
-                    
+
                     <div class="flex items-center gap-2 justify-between mt-3">
                         <p class="font-bold text-lg">R$ 6</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
-                        data-name="Guarana lata"
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Guarana lata"
                             data-price="6">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
@@ -152,7 +233,7 @@
         </div>
     </div>
 
-    <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] flex items-center justify-center">
+    <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden" id="cart-modal">
         <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
             <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
 
@@ -161,24 +242,24 @@
             <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
 
             <p class="font-bold mt-4">Endereço de entrega:</p>
-            <input type="text"
-            placeholder="Digite seu endereço completo..."
-            id="address"
-            class="w-full border-2 p-1 rounded my-1"
-            />
+            <input type="text" placeholder="Digite seu endereço completo..." id="address"
+                class="w-full border-2 p-1 rounded my-1" />
             <p class="text-red-500 hidden" id="address-warn">Digite seu endereço completo!</p>
-            
+            <div class="flex items-center justify-between mt-5 w-full">
+                <button id="close-modal-btn">Fechar</button>
+                <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar pedido</button>
+            </div>
         </div>
     </div>
 
     <footer class="w-full bg-red-700 py-3 fixed bottom-0 z-40 flex items-center justify-center">
         <button class="flex items-center gap-2 text-white font-bold" id="cart-btn">
-            (<span id="cart-count">2</span>)
+            (<span id="cart-count">0</span>)
             Ver carrinho
             <i class="fa fa-cart-plus text-lg text-white"></i>
         </button>
     </footer>
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="assets/js/scripts.js"></script>
 </body>
 
